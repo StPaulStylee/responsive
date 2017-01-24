@@ -1,5 +1,5 @@
-/*---------------------------------------------------------------- 
-Reset - published from http://meyerweb.com/eric/tools/css/reset/ 
+/*----------------------------------------------------------------
+Reset - published from http://meyerweb.com/eric/tools/css/reset/
 ----------------------------------------------------------------*/
 
 html, body, div, span, applet, object, iframe,
@@ -11,8 +11,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -83,7 +83,7 @@ h1 em {
     color: #3e373e;
     font-weight: bold;
     font-style: italic;
-    text-transform: uppercase;   
+    text-transform: uppercase;
 }
 
 h2 {
@@ -129,20 +129,20 @@ a {
     font-size: 1em; /* 10px/10px */
     margin: 1.5em auto;
     max-width: 130em;
-}              
+}
 .header {
     position: relative;
     padding-bottom: 1em;
     margin-bottom: 1em;
     border-bottom: 1px solid #3e373e;
-}     
+}
 
 /* LOGO */
 
 .logo {
     float: left;
     text-align: center;
-}       
+}
 
 .banner {
     width: 8%;
@@ -154,7 +154,7 @@ a {
     font-size: 0.85555em;
     text-align: left;
     font-weight: 700;
-}            
+}
 
 /* NAVIGATION */
 
@@ -245,11 +245,11 @@ nav ul li a:hover, nav ul li a:focus, nav ul li.active a {
     color: #181616;
     font-family: "Open Sans", 'Biryani', sans-serif;
     font-weight: 700;
-    transition: 0.2s ease-in-out;    
+    transition: 0.2s ease-in-out;
 }
 
 .modal-content a:hover {
-    color: hsla(360, 82%, 49%, 1);    
+    color: hsla(360, 82%, 49%, 1);
 }
 
 .modal-overlay {
@@ -270,13 +270,13 @@ nav ul li a:hover, nav ul li a:focus, nav ul li.active a {
     visibility: visible;
 }
 
-/* MAIN */        
+/* MAIN */
 
 section.content {
     max-height: max-content;
     margin: 0 auto;
     width: 90%;
-}                                        
+}
 
 section.content p {
     font-size: 1.2em;
@@ -295,7 +295,7 @@ section.content .gi img {
     padding: 1em;
     width: 65.5%;
 }
-    
+
 
 /* SHARED ATTRIBUTES IN LIST */
 
@@ -323,7 +323,7 @@ section.content .gi img {
 }
 
 
-.console .game-image a:hover, .console .game-image a:focus, 
+.console .game-image a:hover, .console .game-image a:focus,
 .pc .game-image a:hover, .pc .game-image a:focus {
     background: hsla(360, 100%, 44%, 0.60);
     transition: 0.35s ease-in-out;
@@ -332,7 +332,7 @@ section.content .gi img {
 /* CONSOLE LIST */
 
 .console-list {
-    float: left;    
+    float: left;
     border: 1px solid #3e373e;
     height: 64em; /* 625px/10px */
     width: 30%;
@@ -344,29 +344,29 @@ section.content .gi img {
 }
 
 .game-image#last {
-    background: url(images/Last.jpg) no-repeat;
+    background: url(/images/Last.jpg) no-repeat;
     background-size: 100% 100%;
 }
 
 .game-image#grand {
-    background: url(images/Grand.jpg) no-repeat;
+    background: url(/images/Grand.jpg) no-repeat;
     background-size: 100% 100%;
 }
 
 .game-image#tomb {
-    background: url(images/Tomb.jpg) no-repeat;
+    background: url(/images/Tomb.jpg) no-repeat;
     background-size: 100% 100%;
 }
 
 .game-image#destiny {
-    background: url(images/Destiny.jpg) no-repeat;
+    background: url(/images/Destiny.jpg) no-repeat;
     background-size: 100% 100%;
     font-size: 0.9em;
     height: 13.35em;
 }
 
 .game-image#halo {
-    background: url(images/Halo.jpg) no-repeat;
+    background: url(/images/Halo.jpg) no-repeat;
     background-size: 100% 100%;
     font-size: 0.9em;
     height: 13.35em;
@@ -375,7 +375,7 @@ section.content .gi img {
 /* PC LIST */
 
 .pc-list {
-    float: right;    
+    float: right;
     border: 1px solid #3e373e;
     height: 64em; /* 625px/10px */
     width: 30%;
@@ -388,27 +388,27 @@ section.content .gi img {
 }
 
 .game-image#dark {
-    background: url(images/Dark.jpg) no-repeat;
+    background: url(/images/Dark.jpg) no-repeat;
     background-size: 100% 100%;
 }
 
 .game-image#xcom2 {
-    background: url(images/Xcom2.jpg) no-repeat;
+    background: url(/images/Xcom2.jpg) no-repeat;
     background-size: 100% 100%;
 }
 
 .game-image#undertale {
-    background: url(images/Undertale.jpg) no-repeat;
+    background: url(/images/Undertale.jpg) no-repeat;
     background-size: 100% 100%;
 }
 
 .game-image#batman {
-    background: url(images/Batman.jpg) no-repeat;
+    background: url(/images/Batman.jpg) no-repeat;
     background-size: 100% 100%;
 }
 
 .game-image#civilization {
-    background: url(images/Civilization.jpg) no-repeat;
+    background: url(/images/Civilization.jpg) no-repeat;
     background-size: 100% 100%;
 }
 
@@ -421,7 +421,7 @@ section.content .gi img {
 }
 
 .sidebar .more {
-    background: rgba(171, 168, 166, 0.52);    
+    background: rgba(171, 168, 166, 0.52);
     border: 1px solid rgba(182, 185, 186);
     box-shadow: 2px 2px 2px #181616;
     -moz-box-shadow: 2px 2px 2px #181616;
@@ -454,7 +454,7 @@ section.content .gi img {
 
 .social h3 {
     text-align: center;
-    padding: 1.75em 0 0.5em; 
+    padding: 1.75em 0 0.5em;
 }
 
 .social ul {
@@ -465,7 +465,7 @@ section.content .gi img {
     display: inline-block;
     height: 5em;
     width: 5em;
-    padding: 1em;    
+    padding: 1em;
 }
 
 .social ul li:last-child {
@@ -485,7 +485,7 @@ section.content .gi img {
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     box-shadow: 2px 2px 2px #181616;
-}                                         
+}
 
 /*-------------------------------------------------------------------------------------------------
                                             FOOTER
@@ -543,7 +543,7 @@ MEDIA QUERIES
     nav ul li {
         font-size: 1.2em;
     }
-    
+
     .social ul li {
         height: 4em;
         width: 4em;
@@ -580,7 +580,7 @@ MEDIA QUERIES
         text-align: center;
         padding-right: 3.75em;
     }
-    
+
     nav {
         float: none;
         text-align: center;
@@ -663,7 +663,7 @@ MEDIA QUERIES
 
 @media screen and (max-width: 590px) {
     .console .game-image, .pc .game-image, .game-image#destiny, .game-image#halo {
-        height: 20em;    
+        height: 20em;
     }
     nav ul li {
     font-size: 1.1em;
@@ -685,11 +685,11 @@ MEDIA QUERIES
         padding-left: 2em;
     }
 }
-    
+
 @media screen and (max-width: 480px) {
     .console .game-image, .pc .game-image, .game-image#destiny, .game-image#halo {
-        height: 15em;        
-}    
+        height: 15em;
+}
 
 @media screen and (max-width: 440px) {
     .modal-media-title {
@@ -704,14 +704,14 @@ MEDIA QUERIES
     nav ul li {
         font-size: 1em;
     }
-}   
+}
 @media screen and (max-width: 370px) {
     .logo {
         font-size: 0.79em;
     }
     .modal-media-title {
         font-size: 1.7em;
-    }    
+    }
 }
 
 
@@ -720,10 +720,9 @@ MEDIA QUERIES
         font-size: 0.745em;
     }
     .console .game-image, .pc .game-image, .game-image#destiny, .game-image#halo {
-        height: 12em;        
+        height: 12em;
     }
     nav ul li {
     font-size: 0.9em;
     }
 }
-
